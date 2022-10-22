@@ -14,3 +14,5 @@ Tools which are in here:
 * Arm-none-eabi toolchain -> Nothing special, just here for completeness
 
 _Add following environment variable: PICO_TOOLS_PATH - Set it to the root directory of this repository_
+
+test
