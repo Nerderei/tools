@@ -2,18 +2,15 @@
 Toolchain / OpenOCD / Miscellaneous scripts
 
 ## Raspberry PI pico
-Tools needed which are not in here..
-* Windows: Visual Studio Build Tools -> Developer Powershell (NMake)
-* Linux: Ninja (optional) - Otherwise make 
-* CMake
+### Environment Variables
 
-Tools which are in here:
-* Special OpenOCD branch for RP2040
-    * Features CMSIS DAP for RP2040
-    * Features Picoprobe
-* Arm-none-eabi toolchain -> Nothing special, just here for completeness
 
-_Add following environment variable: PICO_TOOLS_PATH - Set it to the root directory of this repository_
+### Tools (Windows)
+* CMake 3.24.2
+* Ninja 1.11.1
+* Arm-none-eabi 10-2020-q4-majo
+* OpenOCD 0.11.0+dev
+* OpenOCD Pico 0.11.0-g610f137 (2022-02-11-13:57)
 
 ### Interesting Links
 * [CMSIS DAP two core](https://github.com/majbthrd/pico-debug)
