@@ -14,3 +14,7 @@ Tools which are in here:
 * Arm-none-eabi toolchain -> Nothing special, just here for completeness
 
 _Add following environment variable: PICO_TOOLS_PATH - Set it to the root directory of this repository_
+
+### Interesting Links
+* [CMSIS DAP two core](https://github.com/majbthrd/pico-debug)
+* [Open OCD releases](https://github.com/earlephilhower/pico-quick-toolchain/releases/)
